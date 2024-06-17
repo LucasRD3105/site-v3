@@ -14,25 +14,26 @@
 
 #ajuste-navbar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between; /* Ajuste para espaçar entre logo e menu */
     align-items: center;
-    position: relative; /* Adicionado para controle da posição do menu */
+    width: 100%;
+    padding: 0 20px; /* Ajuste o padding conforme necessário */
 }
 
 #ajuste-logo {
     width: 160px;
+    margin-left: 20px;
 }
 
 #ajuste-menu {
-    margin-top: 10px;
-    position: absolute; /* Para abrir a partir da linha da logo */
-    top: 100px; /* Ajuste conforme necessário */
-    right: 0; /* Alinha o menu à direita */
     display: none;
+    position: absolute;
+    top: 60px; /* Ajuste conforme necessário */
+    right: 60px; /* Posicionado à esquerda do menu hamburguer */
     flex-direction: column;
-    align-items: flex-start; /* Alinha os itens à esquerda */
+    align-items: flex-start;
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    padding: 10px; /* Ajuste o padding conforme necessário */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -42,7 +43,7 @@
     border: none;
     cursor: pointer;
     font-size: 27px;
-    margin: 10px 0;
+    margin: 5px 0; /* Ajuste o margin conforme necessário */
     transition: all 0.2s ease;
 }
 
@@ -54,7 +55,7 @@
 .ajuste-bandeira {
     width: 65px;
     cursor: pointer;
-    margin: 10px 0;
+    margin: 5px 0; /* Ajuste o margin conforme necessário */
 }
 
 #descricao-home {
@@ -97,7 +98,7 @@
     flex-direction: column;
     cursor: pointer;
     margin-top: 10px;
-    margin-left: 20px; /* Adicionado para dar espaçamento à esquerda da logo */
+    margin-right: 20px;
 }
 
 #menu-hamburguer .bar1, #menu-hamburguer .bar2, #menu-hamburguer .bar3 {
@@ -125,25 +126,16 @@
 }
 
 #close-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    font-weight: bold;
+    display: none; /* Escondido permanentemente */
 }
 
 @media (max-width: 1200px) {
     #ajuste-navbar {
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 
     #ajuste-menu {
-        display: none;
+        display: none; /* Escondido em telas menores que 1200px */
     }
 
     #menu-hamburguer {
@@ -154,22 +146,25 @@
         display: flex;
         flex-direction: column;
     }
+
+    #ajuste-menu.open {
+        display: flex; /* Mostrar o menu apenas em telas menores que 1200px */
+    }
 }
 
 @media (min-width: 1200px) {
     #ajuste-navbar {
         flex-direction: row;
-        justify-content: center;
     }
 
     #ajuste-menu {
-        display: flex;
+        display: flex; /* Certifique-se de exibir o menu em telas maiores que 1200px */
         flex-direction: row;
         align-items: center;
-        margin-left: 34%;
-        margin-right: 5%;
-        position: relative;
-        top: 0;
+        position: static;
+        background-color: transparent; /* Remove o fundo branco */
+        box-shadow: none; /* Remove a sombra */
+        padding: 0; /* Remove o padding */
     }
 
     .componentes-menu {
@@ -181,6 +176,7 @@
         margin: 0 10px;
     }
 }
+
 
 
 
