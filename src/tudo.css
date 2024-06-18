@@ -677,7 +677,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 30vh;
+    height: 40vh;
 }
 
 #ajuste-logo-footer {
@@ -883,6 +883,7 @@
     }
     #testeee {
         height: 140vh;
+        margin-bottom: 20%;
     }
     #ajuste-todas-box {
         width: 800px;
@@ -900,6 +901,9 @@
 }
 
 @media (max-width: 1350px){
+    #background-grupo {
+        height: 200vh;
+    }
     #grupos {
         flex-direction: column;
     }
@@ -944,6 +948,9 @@
 }
 
 @media (max-width: 1300px){
+    #background-conceitos {
+        height: 200vh;
+    }
     #ajuste-logo {
         width: 150px;
         margin-left: 10px;
@@ -1183,6 +1190,10 @@
 }
 
 @media (max-width: 875px){
+    #testeee {
+        height: 150vh;
+        margin-bottom: 80%;
+    }
     #titulo-servicos {
         font-size: 50px;
     }
@@ -1231,6 +1242,9 @@
 }
 
 @media (max-width: 800px){
+    #background-conceitos {
+        height: 420vh;
+    }
     #background-texto1-conceitos {
         width: 500px;
         height: 370px;
@@ -1253,9 +1267,6 @@
     }
     #ajuste-descricao3-conceitos {
         width: 400px;
-    }
-    #background-conceitos {
-        height: 190vh;
     }
 }
 
@@ -1303,6 +1314,10 @@
 }
 
 @media (max-width: 650px){
+    #testeee {
+        height: 160vh;
+        margin-bottom: 320%;
+    }
     #titulo-servicos {
         font-size: 25px;
     }
@@ -1509,9 +1524,6 @@
         width: 150px;
         margin-left: 50px;
     }
-    #contato-geral {
-        height: 20vh;
-    }
     .contact-icon {
         width: 15px;
         height: 15px;
@@ -1527,9 +1539,6 @@
         font-size: 12px;
         margin-left: 5px;
         margin-right: 5px;
-    }
-    #ajuste-footer {
-        height: 22vh;
     }
     #background-texto1-conceitos {
         width: 300px;
