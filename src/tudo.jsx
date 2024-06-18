@@ -50,8 +50,8 @@ function Tudo() {
                                 <Link activeClass="active" to="contato" spy={true} smooth={true} duration={500} className="componentes-menu">Contato</Link>
                                 <Link activeClass="active" to="relprev" spy={true} smooth={true} duration={500} className="componentes-menu">RELPREV</Link>
                                 <div className="menu-bandeiras">
-                                    <img className="ajuste-bandeira" src={brasil} alt="Bandeira do Brasil" />
-                                    <img className="ajuste-bandeira" src={eua} alt="Bandeira dos EUA" />
+                                    <img className="ajuste-bandeirah" src={brasil} alt="Bandeira do Brasil" />
+                                    <img className="ajuste-bandeirah" src={eua} alt="Bandeira dos EUA" />
                                 </div>
                             </div>
                         </div>
