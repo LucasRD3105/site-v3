@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
 import { Link, Element } from 'react-scroll';
+import { Link as Teste } from 'react-router-dom';
 import './tudo.css';
 import logo from '../src/imagens/logo.png';
 import brasil from '../src/imagens/brasil.png';
@@ -51,7 +52,7 @@ function Tudo() {
                                 <Link activeClass="active" to="relprev" spy={true} smooth={true} duration={500} className="componentes-menu">RELPREV</Link>
                                 <div className="menu-bandeiras">
                                     <img className="ajuste-bandeirah" src={brasil} alt="Bandeira do Brasil" />
-                                    <img className="ajuste-bandeirah" src={eua} alt="Bandeira dos EUA" />
+                                    <Teste to="english"><img className="ajuste-bandeirah" src={eua} alt="Bandeira dos EUA" /></Teste>
                                 </div>
                             </div>
                         </div>

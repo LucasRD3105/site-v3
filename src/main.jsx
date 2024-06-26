@@ -4,10 +4,21 @@ import Tudo from './tudo.jsx'
 import English from './tudo-english.jsx'
 import './index.css'
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Tudo />,
+  },
+  {
+    path: "english",
+    element: <English />,
+  }
+]);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='oi'>
-      <Tudo />
-    </div>
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

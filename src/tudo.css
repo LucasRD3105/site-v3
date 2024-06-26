@@ -321,12 +321,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 180vh;
 }
 
 #background-grupo {
     background: linear-gradient(to bottom, #ece4dc, #ece4dc, #083c6c);
-    height: 150vh;
+    height: 180vh;
     display: flex;
     align-items: center;
     flex-direction: column;
