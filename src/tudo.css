@@ -6,7 +6,7 @@
 }
 
 #ajuste-home {
-    background-image: url('../src/imagens/shutterstock_190137869\ 1.png');
+    background-image: url('/imagens/shutterstock_190137869\ 1.png');
     height: 100vh;
     background-position: 50% 25%;
     background-size: cover;
@@ -197,7 +197,7 @@
 #ajuste-box1-servicos {
     width: 900px;
     height: 260px;
-    background-image: url('../src/imagens/rs=w_600\,cg_true\,m\ \(1\)\ 1.png');
+    background-image: url('/imagens/rs=w_600\,cg_true\,m\ \(1\)\ 1.png');
     background-size: cover;
     background-position: 50% 40%;
     margin: 15px;
@@ -211,7 +211,7 @@
 #ajuste-box2-servicos {
     width: 900px;
     height: 260px;
-    background-image: url('../src/imagens/1687788301400\ 1.png');
+    background-image: url('/imagens/1687788301400\ 1.png');
     background-position: 50% 45%;
     background-size: cover;
     margin: 15px;
@@ -225,7 +225,7 @@
 #ajuste-box3-servicos {
     width: 900px;
     height: 260px;
-    background-image: url('../src/imagens/rs=w_600\,cg_true\ 1.png');
+    background-image: url('/imagens/rs=w_600\,cg_true\ 1.png');
     background-position: 50% 48%;
     background-size: cover;
     margin: 15px;
@@ -239,7 +239,7 @@
 #ajuste-box4-servicos {
     width: 900px;
     height: 260px;
-    background-image: url('../src/imagens/1693567254028\ 1.png');
+    background-image: url('/imagens/1693567254028\ 1.png');
     background-position: 50% 45%;
     background-size: cover;
     margin: 15px;
@@ -253,7 +253,7 @@
 #ajuste-box5-servicos {
     width: 900px;
     height: 260px;
-    background-image: url('../src/imagens/rs=w_600\,cg_true\,m\ 1.png');
+    background-image: url('/imagens/rs=w_600\,cg_true\,m\ 1.png');
     background-position: 50% 20%;
     background-size: cover;
     margin: 15px;
@@ -428,7 +428,7 @@
     width: 190px;
     margin: 1%;
     border-radius: 30px;
-    background-image: url('../src/imagens/rs=w_600\,cg_true\,m\ \(5\).webp');
+    background-image: url('/imagens/rs=w_600\,cg_true\,m\ \(5\).webp');
     background-size: cover;
 }
 
@@ -437,7 +437,7 @@
     width: 250px;
     margin: 1%;
     border-radius: 30px;
-    background-image: url('../src/imagens/rs=w_600\,cg_true\ \(2\).webp');
+    background-image: url('/imagens/rs=w_600\,cg_true\ \(2\).webp');
     background-size: cover;
     background-position: 50% 60%;
 }
@@ -447,7 +447,7 @@
     width: 150px;
     margin: 1%;
     border-radius: 30px;
-    background-image: url('../src/imagens/rs=w_600\,cg_true\ \(1\).webp');
+    background-image: url('/imagens/rs=w_600\,cg_true\ \(1\).webp');
     background-size: cover;
 }
 
@@ -456,7 +456,7 @@
     width: 190px;
     margin: 1%;
     border-radius: 30px;
-    background-image: url('../src/imagens/offshore.jpeg');
+    background-image: url('/imagens/offshore.jpeg');
     background-size: cover;
 }
 
@@ -465,7 +465,7 @@
     margin: 1%;
     height: 280px;
     border-radius: 30px;
-    background-image: url('../src/imagens/rs=w_600\,cg_true.webp');
+    background-image: url('/imagens/rs=w_600\,cg_true.webp');
     background-size: cover;
 }
 
@@ -474,7 +474,7 @@
     width: 470px;
     margin: 1%;
     border-radius: 30px;
-    background-image: url('../src/imagens/1693567254028.jfif');
+    background-image: url('/imagens/1693567254028.jfif');
     background-size: cover;
 }
 
@@ -483,7 +483,7 @@
     margin: 1%;
     height: 280px;
     border-radius: 30px;
-    background-image: url('../src/imagens/rs=w_600\,cg_true\,m\ \(4\).webp');
+    background-image: url('/imagens/rs=w_600\,cg_true\,m\ \(4\).webp');
     background-size: cover;
 }
 
@@ -598,7 +598,7 @@
 }
 
 #aviao {
-    background-image: url('../src/imagens/aviao.png'); /* Certifique-se de que o caminho esteja correto */
+    background-image: url('/imagens/aviao.png'); 
     background-size: cover;
     background-position: center;
     width: 100%;

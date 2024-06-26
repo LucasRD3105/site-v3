@@ -3,22 +3,22 @@ import React from 'react';
 import { Link, Element } from 'react-scroll';
 import { Link as Teste } from 'react-router-dom';
 import './tudo.css';
-import logo from '../src/imagens/logo.png';
-import brasil from '../src/imagens/brasil.png';
-import eua from '../src/imagens/eua.png';
-import teste from '../src/imagens/teste.png';
-import helicoptero from '../src/imagens/helicoptero.png';
-import Whatsapp from './imagens/whatsapp.png';
-import telefone from './imagens/telefone.png';
-import email from './imagens/e-mail.png';
-import logo1 from '../src/imagens/logo.png';
-import brasil1 from '../src/imagens/brasilbranco.png';
-import eua1 from '../src/imagens/euabranco.png';
-import plataforma from '../src/imagens/plataforma.png';
-import agendinha from '../src/imagens/agendinha.png';
-import escritor from '../src/imagens/escritor.png';
-import lupa from '../src/imagens/lupa.png';
-import conversa from '../src/imagens/conversa.png';
+import logo from '/imagens/logo.png';
+import brasil from '/imagens/brasil.png';
+import eua from '/imagens/eua.png';
+import teste from '/imagens/teste.png';
+import helicoptero from '/imagens/helicoptero.png';
+import Whatsapp from '/imagens/whatsapp.png';
+import telefone from '/imagens/telefone.png';
+import email from '/imagens/e-mail.png';
+import logo1 from '/imagens/logo.png';
+import brasil1 from '/imagens/brasilbranco.png';
+import eua1 from '/imagens/euabranco.png';
+import plataforma from '/imagens/plataforma.png';
+import agendinha from '/imagens/agendinha.png';
+import escritor from '/imagens/escritor.png';
+import lupa from '/imagens/lupa.png';
+import conversa from '/imagens/conversa.png';
 
 function Tudo() {
 
