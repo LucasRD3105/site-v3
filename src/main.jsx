@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Tudo from './tudo.jsx'
+import English from './tudo-english.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
