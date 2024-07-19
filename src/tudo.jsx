@@ -5,7 +5,7 @@ import { Link as Teste } from 'react-router-dom';
 import './tudo.css';
 import logo from '/imagens/logo.png';
 import brasil from '/imagens/brasil.png';
-import eua from '/imagens/eua.png';
+import british from '/imagens/british.png';
 import teste from '/imagens/teste.png';
 import helicoptero from '/imagens/helicoptero.png';
 import Whatsapp from '/imagens/whatsapp.png';
@@ -13,7 +13,7 @@ import telefone from '/imagens/telefone.png';
 import email from '/imagens/e-mail.png';
 import logo1 from '/imagens/logo.png';
 import brasil1 from '/imagens/brasilbranco.png';
-import eua1 from '/imagens/euabranco.png';
+import british1 from '/imagens/britishbranco.png';
 import plataforma from '/imagens/plataforma.png';
 import agendinha from '/imagens/agendinha.png';
 import escritor from '/imagens/escritor.png';
@@ -52,7 +52,7 @@ function Tudo() {
                                 <Link activeClass="active" to="relprev" spy={true} smooth={true} duration={500} className="componentes-menu">RELPREV</Link>
                                 <div className="menu-bandeiras">
                                     <img className="ajuste-bandeirah" src={brasil} alt="Bandeira do Brasil" />
-                                    <Teste to="english"><img className="ajuste-bandeirah" src={eua} alt="Bandeira dos EUA" /></Teste>
+                                    <Teste to="english"><img className="ajuste-bandeirah" src={british} alt="Bandeira da Grã-Bretanha" /></Teste>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,8 @@ function Tudo() {
                     <div id="descricao-home">
                         <div id="ajuste-descricao-home">
                             <p id="titulo">AUDIT BEFORE FLIGHT</p>
-                            <p id="frase">A HELIOFFSHORE MEMBER</p>
+                            <a href='https://www.helioffshore.org/' target='_blank'><p id="frase">MEMBRO HELIOFFSHORE</p></a>
+                            <a href='https://inipat.gov.ao/index.php/prevencao/cnpaa.html' target='_blank'><p id="frase">MEMBRO CNPAA</p></a>
                             <Link activeClass="active" to="contato" spy={true} smooth={true} duration={500}>
                                 <button id="contato">Entre em contato</button>
                             </Link>
@@ -236,7 +237,7 @@ function Tudo() {
                     </div>
                     <div>
                         <img className="ajuste-bandeira" src={brasil1} alt="Bandeira do Brasil" />
-                        <img className="ajuste-bandeira" src={eua1} alt="Bandeira dos EUA" />
+                        <img className="ajuste-bandeira" src={british1} alt="Bandeira da Grã-Bretanha" />
                     </div>
                 </Element>
             </div>

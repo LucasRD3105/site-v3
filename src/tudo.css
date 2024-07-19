@@ -5,6 +5,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 #ajuste-home {
     background-image: url('/imagens/shutterstock_190137869\ 1.png');
     height: 100vh;
@@ -55,6 +59,11 @@
     font-weight: 500;
 }
 
+.componentes-footer:hover {
+    scale: 1.05;
+    font-weight: 500;
+}
+
 .ajuste-bandeirah {
     width: 65px;
     cursor: pointer;
@@ -85,6 +94,12 @@
 #frase {
     font-size: 35px;
     margin-bottom: 1%;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+#frase:hover {
+    scale: 1.01;
 }
 
 #contato {
