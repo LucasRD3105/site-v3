@@ -80,7 +80,7 @@ function TudoEnglish() {
                             <div id="ajuste-box1-servicos">
                                 <div className='ajusteeee'>
                                     <p className="titulo">AUDIT</p>
-                                    <p className="descricao">Consulting and contract management</p>
+                                    <p className="descricao">Flight Safety and Compliance</p>
                                 </div>
                                 <div>
                                     <img src={teste} className="ajuste-imagem-box" alt="Serviço de Auditoria" />
@@ -236,7 +236,7 @@ function TudoEnglish() {
                         <Link activeClass="active" to="relprev" spy={true} smooth={true} duration={500} className="componentes-footer">RELPREV</Link>
                     </div>
                     <div>
-                        <img className="ajuste-bandeira" src={brasil1} alt="Bandeira do Brasil" />
+                        <Teste to="/"><img className="ajuste-bandeira" src={brasil1} alt="Bandeira do Brasil" /></Teste>
                         <img className="ajuste-bandeira" src={british1} alt="Bandeira dos EUA" />
                     </div>
                 </Element>

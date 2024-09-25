@@ -80,7 +80,7 @@ function Tudo() {
                             <div id="ajuste-box1-servicos">
                                 <div className='ajusteeee'>
                                     <p className="titulo">AUDITORIA</p>
-                                    <p className="descricao">Consultoria e gestão de contratos</p>
+                                    <p className="descricao">Segurança de Voo e Compliance</p>
                                 </div>
                                 <div>
                                     <img src={teste} className="ajuste-imagem-box" alt="Serviço de Auditoria" />
@@ -237,7 +237,7 @@ function Tudo() {
                     </div>
                     <div>
                         <img className="ajuste-bandeira" src={brasil1} alt="Bandeira do Brasil" />
-                        <img className="ajuste-bandeira" src={british1} alt="Bandeira da Grã-Bretanha" />
+                        <Teste to="english"><img className="ajuste-bandeira" src={british1} alt="Bandeira da Grã-Bretanha" /></Teste>
                     </div>
                 </Element>
             </div>
