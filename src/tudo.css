@@ -291,8 +291,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 20px; /* Adiciona espaçamento inferior */
 }
+
 
 .titulo {
     font-weight: 500;
@@ -342,6 +344,7 @@ a {
 #background-grupo {
     background: linear-gradient(to bottom, #ece4dc, #ece4dc, #083c6c);
     height: 180vh;
+    margin-top: 40%;
     display: flex;
     align-items: center;
     flex-direction: column;
