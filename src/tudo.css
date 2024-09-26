@@ -291,10 +291,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
-    padding-bottom: 20px; /* Adiciona espaçamento inferior */
+    height: 100vh;
 }
-
 
 .titulo {
     font-weight: 500;
@@ -344,7 +342,6 @@ a {
 #background-grupo {
     background: linear-gradient(to bottom, #ece4dc, #ece4dc, #083c6c);
     height: 180vh;
-    margin-top: 40%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -901,7 +898,7 @@ a {
     }
     #testeee {
         height: 140vh;
-        margin-bottom: 20%;
+        margin-bottom: 60%;
     }
     #ajuste-todas-box {
         width: 800px;
@@ -1094,6 +1091,12 @@ a {
     }
 }
 
+@media (max-width: 1100px){
+    #testeee {
+        margin-bottom: 100%;
+    }
+}
+
 @media (max-width: 1000px){
     #ajuste-logo-footer {
         width: 120px;
@@ -1208,10 +1211,6 @@ a {
 }
 
 @media (max-width: 875px){
-    #testeee {
-        height: 150vh;
-        margin-bottom: 80%;
-    }
     #titulo-servicos {
         font-size: 50px;
     }
@@ -1617,4 +1616,3 @@ a {
         height: 12vh;
     }
 }
-
